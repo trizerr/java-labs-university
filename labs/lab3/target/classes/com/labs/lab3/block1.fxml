@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fill="#ff0d00" layoutX="125.0" layoutY="123.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="344.0" layoutY="23.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Polygon accessibleRole="BUTTON" fill="#00ff33" layoutX="162.0" layoutY="259.0" points="-88.0, 78.0, 50.0, 78.0, 50.0, -11.0, -44.0, -11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fill="#686868" layoutX="37.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Circle Red" wrappingWidth="52.0390625">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#686868" layoutX="365.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rectangle Blue" wrappingWidth="87.302734375">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#686868" layoutX="81.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Трапеція Зелений" wrappingWidth="87.302734375">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#686868" layoutX="488.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;Deonis/&gt;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

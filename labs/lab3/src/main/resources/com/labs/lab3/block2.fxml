@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.labs.lab3.HelloController2">
+   <children>
+      <Line endX="18.5" endY="209.0" layoutX="93.0" layoutY="100.0" startX="18.499984741210938" startY="-18.0" />
+      <Line endX="355.0" layoutX="213.0" layoutY="310.0" startX="-100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="77.0" layoutX="161.0" layoutY="233.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8ce489" height="194.0" layoutX="251.0" layoutY="116.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f2848b" height="128.0" layoutX="341.0" layoutY="182.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eceea2" height="33.0" layoutX="431.0" layoutY="277.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Line endX="-69.79290771484375" endY="165.0" layoutX="182.0" layoutY="68.0" startX="-21.0" startY="165.0" />
+      <Line endX="-173.2071533203125" endY="165.0" layoutX="284.0" layoutY="-49.0" startX="-33.0" startY="165.0" />
+      <Line endX="-69.79290771484375" endY="165.0" layoutX="181.0" layoutY="17.0" startX="160.0" startY="165.0" />
+      <Line endX="-354.0" endY="165.0" layoutX="466.0" layoutY="112.0" startX="-35.0" startY="165.0" />
+      <Text fill="BLUE" layoutX="48.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100500">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="BLUE" layoutX="53.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="85000">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="BLUE" layoutX="53.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="53000">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="BLUE" layoutX="53.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="21200">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="BLUE" layoutX="201.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="BLUE" layoutX="376.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="BLUE" layoutX="291.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="BLUE" layoutX="471.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Text>
+      <Polyline fill="BLACK" layoutX="462.0" layoutY="161.0" points="74.5, 142.0, 74.5, 157.0, 106.5, 148.5, 74.5, 142.0" strokeType="INSIDE" />
+      <Polyline fill="BLACK" layoutX="7.0" layoutY="-82.0" points="95.0, 172.0, 113.0, 172.0, 105.0, 141.0, 95.0, 172.0" strokeType="INSIDE" />
+      <Text fill="BLUE" layoutX="72.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="BLUE" layoutX="541.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="t, k">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#2600ff" layoutX="272.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

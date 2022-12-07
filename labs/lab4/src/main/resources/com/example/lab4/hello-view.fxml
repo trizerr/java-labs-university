@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#73c2ff" layoutX="21.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Інформація про організацію" AnchorPane.leftAnchor="30.0">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="30.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Назва *" AnchorPane.leftAnchor="30.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="55.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Місто *" AnchorPane.leftAnchor="30.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="54.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Адреса * " AnchorPane.leftAnchor="30.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#73c2ff" layoutX="25.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Контактна особа" AnchorPane.leftAnchor="30.0">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="30.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Контактна особа *" AnchorPane.leftAnchor="30.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="30.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Телефон * " AnchorPane.leftAnchor="30.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="30.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email *" AnchorPane.leftAnchor="30.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <CheckBox layoutX="32.0" layoutY="360.0" mnemonicParsing="false" text="Хочу отримувати розсилку" AnchorPane.leftAnchor="30.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </CheckBox>
+      <Button layoutX="391.0" layoutY="348.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Скасувати">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="486.0" layoutY="348.0" mnemonicParsing="false" style="-fx-background-color: green;" text="Надіслати">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Button>
+      <TextField layoutX="212.0" layoutY="64.0" prefHeight="25.0" prefWidth="231.0" />
+      <TextField layoutX="212.0" layoutY="100.0" prefHeight="25.0" prefWidth="231.0" />
+      <TextField layoutX="212.0" layoutY="134.0" prefHeight="25.0" prefWidth="231.0" />
+      <TextField layoutX="212.0" layoutY="227.0" prefHeight="25.0" prefWidth="231.0" />
+      <TextField layoutX="212.0" layoutY="262.0" prefHeight="25.0" prefWidth="231.0" />
+      <TextField layoutX="212.0" layoutY="298.0" prefHeight="25.0" prefWidth="231.0" />
+      <ImageView blendMode="MULTIPLY" fitHeight="87.0" fitWidth="81.0" layoutX="485.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@java.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
